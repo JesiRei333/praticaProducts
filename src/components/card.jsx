@@ -21,13 +21,12 @@ export default function Card(props) {
   }
 
   return (
-    <article
-      className="font-extralight align-super text-neutral-50/50 flex flex-col items-center p-3 hover:translate-x-4 hover:translate-y-4 hover:shadow-xl  hover:shadow-cyan-700 rounded-[20px]   hover:text-slate-100 hover:font-medium text-start"
-      onClick={""}
-    >
+    <article className="font-extralight align-super text-neutral-50/50 flex flex-col items-center p-3 hover:translate-x-4 hover:translate-y-4 hover:shadow-xl  hover:shadow-cyan-700 rounded-[20px]   hover:text-slate-100 hover:font-medium text-start">
       <div className=" rounded-[20px] flex flex-col align-middle content-center items-center ">
         <div className="  rounded-[20px] ">
-          <p className=" text-white text-base font-semibold">{props.title}</p>
+          <p className=" text-white text-base font-semibold hover:text-cyan-300 ">
+            {props.title}
+          </p>
         </div>
 
         <div className=" max-h-[250px]  max-w-[200px] min-h-[250px] min-w-[200px]  flex rounded-[20px]  ">
