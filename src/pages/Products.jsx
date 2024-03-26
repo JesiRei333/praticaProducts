@@ -26,7 +26,7 @@ export default function Products() {
         </h1>
       </header>
 
-      <section className="grid grid-cols-3 gap-4 w-full max-w-screen-md ">
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-screen-md ">
         {products.map((product, index) => {
           return (
             <Card
